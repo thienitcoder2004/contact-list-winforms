@@ -32,6 +32,7 @@
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             textBox3 = new TextBox();
+            label1 = new Label();
             SuspendLayout();
             // 
             // button1
@@ -67,11 +68,21 @@
             textBox3.TabIndex = 4;
             textBox3.Text = "Email";
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(201, 71);
+            label1.Name = "label1";
+            label1.Size = new Size(134, 20);
+            label1.TabIndex = 5;
+            label1.Text = "Thông Tin Bổ Sung";
+            // 
             // AddContactForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label1);
             Controls.Add(textBox3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
@@ -88,5 +99,6 @@
         private TextBox textBox1;
         private TextBox textBox2;
         private TextBox textBox3;
+        private Label label1;
     }
 }
