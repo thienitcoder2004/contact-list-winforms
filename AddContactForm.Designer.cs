@@ -31,6 +31,7 @@
             button1 = new Button();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
+            textBox3 = new TextBox();
             SuspendLayout();
             // 
             // button1
@@ -58,11 +59,20 @@
             textBox2.TabIndex = 3;
             textBox2.Text = "Số Điện Thoại";
             // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(201, 249);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(372, 27);
+            textBox3.TabIndex = 4;
+            textBox3.Text = "Email";
+            // 
             // AddContactForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(textBox3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(button1);
@@ -77,5 +87,6 @@
         private Button button1;
         private TextBox textBox1;
         private TextBox textBox2;
+        private TextBox textBox3;
     }
 }
