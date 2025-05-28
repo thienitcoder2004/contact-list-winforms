@@ -49,6 +49,7 @@ partial class MainForm
         button1.TabIndex = 2;
         button1.Text = "Thêm Liên Hệ";
         button1.UseVisualStyleBackColor = true;
+        button1.Click += button1_Click;
         // 
         // MainForm
         // 
